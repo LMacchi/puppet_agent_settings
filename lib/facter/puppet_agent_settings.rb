@@ -6,8 +6,8 @@ Facter.add(:puppet_agent_settings) do
     # Select all values to display
     # Config: Path to puppet.conf
     # Confdir: Path to configuration directory
-    # Noop: Is your agent running in noop mode?
-    keys = ['config', 'confdir', 'noop']
+    # SSLDir: Path to your SSL directory
+    keys = ['config', 'confdir', 'ssldir']
     
     keys.each do |key|
       puppet_agent_settings[key] = Puppet.settings[key]
