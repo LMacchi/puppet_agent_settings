@@ -1,0 +1,13 @@
+{
+  "name": "laura/puppet_agent_settings",
+  "version": "0.1.0",
+  "author": "laura",
+  "summary": "Add facts to expose puppet agent settings",
+  "license": "Apache-2.0",
+  "source": "https://github.com/LMacchi/puppet_agent_settings.git",
+  "project_page": "https://github.com/LMacchi/puppet_agent_settings",
+  "issues_url": "https://github.com/LMacchi/puppet_agent_settings/issues",
+  "dependencies": [
+  ],
+  "data_provider": null
+}
