@@ -28,7 +28,9 @@ Notice: Compiled catalog for master.lmacchi.vm in environment production in 0.20
 Notice: Applied catalog in 0.32 seconds
 ```
 
-As explained in the [Puppet docs](https://docs.puppet.com/puppet/4.10/lang_facts_and_builtin_vars.html#puppet-master-variables), the settings variable return values from the master, which is always Linux. This module returns paths from the agent, which are different to the master ones in Windows.
+As explained in the [Puppet docs](https://docs.puppet.com/puppet/latest/lang_facts_and_builtin_vars.html#puppet-master-variables), 
+the settings variable return values from the master, which is always Linux. This module returns paths from the agent, which are different 
+for Windows agents.
 
 ## Example
 
