@@ -6,7 +6,7 @@ describe Facter::Util::Fact do
     Facter.clear
   }
 
-  settings = ['confdir','config','ssldir']
+  settings = ['confdir', 'ssldir','noop','resubmit_facts']
 
   describe "puppet_agent_settings" do
     settings.each do |s|
