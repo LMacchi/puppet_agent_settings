@@ -7,7 +7,7 @@ Facter.add(:puppet_agent_settings) do
     # Config: Path to puppet.conf
     # Confdir: Path to configuration directory
     # SSLDir: Path to your SSL directory
-    keys = ['config', 'confdir', 'ssldir']
+    keys = ['config', 'confdir', 'ssldir', 'pluginfactdest']
 
     keys.each do |key|
       puppet_agent_settings[key] = Puppet.settings[key]
