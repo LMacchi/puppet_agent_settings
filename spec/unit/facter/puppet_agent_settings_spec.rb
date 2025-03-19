@@ -6,7 +6,7 @@ describe 'puppet_agent_settings' do
     Facter.clear
   end
 
-  settings = ['confdir', 'config', 'ssldir']
+  settings = ['config', 'confdir', 'ssldir', 'hostprivkey', 'hostpubkey', 'localcacert', 'hostcert']
 
   settings.each do |s|
     it "key #{s} should not be nil" do
