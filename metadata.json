@@ -1,6 +1,6 @@
 {
   "name": "laura-puppet_agent_settings",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "laura",
   "summary": "Add facts to expose puppet agent settings",
   "license": "Apache-2.0",
@@ -55,7 +55,7 @@
     "settings",
     "puppet_settings"
   ],
-  "pdk-version": "1.10.0",
-  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git#1.10.0",
-  "template-ref": "1.10.0-0-gbba9ac3"
+  "pdk-version": "3.4.0",
+  "template-url": "pdk-default#3.4.0",
+  "template-ref": "tags/3.4.0-0-gd3cc13f"
 }

@@ -12,7 +12,7 @@ Facter.add(:puppet_agent_settings) do
     # HostPubKey: Path to the host SSL Public Key
     # LocalCACert: Path to the host local copy of the CA certificate
     # HostCert: Path to the host local SSL certificate file
-    keys = ['config', 'confdir', 'ssldir', 'hostprivkey', 'hostpubkey', 'localcacert', 'hostcert']
+    keys = ['config', 'confdir', 'ssldir', 'hostprivkey', 'hostpubkey', 'localcacert', 'hostcert', 'resubmit_facts', 'pluginfactdest']
 
     keys.each do |key|
       puppet_agent_settings[key] = Puppet.settings[key]
